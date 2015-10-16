@@ -5,7 +5,7 @@ int input;
 void setup()
 {
   Serial.begin(9600);
-  rele.inicio(4,5)
+  rele.inicio(4,5);
 }
 
 void loop()
