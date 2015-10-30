@@ -1,6 +1,6 @@
 #include <EtherCard.h>
 
-#define STATIC 1  // set to 1 to disable DHCP (adjust myip/gwip values below)
+#define STATIC 0  // set to 1 to disable DHCP (adjust myip/gwip values below)
 
 // ethernet interface mac address, must be unique on the LAN
 static byte mymac[] = { 0x74,0x69,0x69,0x2D,0x30,0x31 };
@@ -80,7 +80,7 @@ static word luzOff()
     "<body>"
     "<h3>Bienvenido a Arduino</h3>"
     "<p><em>"
-      "Luz encendida.<br />"
+      "Luz apagada.<br/>"
       "<p>Luz: <a href=\"/\">atras</a> </p>."
     "</em></p>"
     "</body>"
