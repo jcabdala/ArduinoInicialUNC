@@ -19,23 +19,14 @@ void loop()
 
     	input=Serial.read();
 
-		switch (input) 
+		if (input == '1')
 		{
-		    case '1':
-		      digitalWrite(13, LOW);// prender 1
-		      break;
-		    case '2':
-		     digitalWrite(13, LOW); // prender 2
-		      break;
-		    case '3':
-		     digitalWrite(13, HIGH); // Apagar 1
-		      break;
-		    case '4':
-		     digitalWrite(13, HIGH); // apagar 2
-		      break;
-		    default: 
+			digitalWrite(13, LOW);// prender 1
+		}
+		if (input == '2')
+	    
+   	     digitalWrite(13, HIGH); // Apagar 1
 		     
-		    break;
   		}
 
   }
