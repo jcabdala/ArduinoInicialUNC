@@ -1,0 +1,4 @@
+ReleClass	KEYWORD1
+inicio	KEYWORD2
+prender	KEYWORD2
+apagar	KEYWORD2

@@ -1,5 +1,5 @@
 #include "rele.h"
-#include <Arduino.h>
+
 
 void ReleClass::inicio(int rele1, int rele2)
 {
@@ -8,9 +8,9 @@ void ReleClass::inicio(int rele1, int rele2)
 }
 void ReleClass::prender(int pin)
 {
-	digitalWrite(pin, LOW);
+	digitalWrite(pin, 0);
 }
 void ReleClass::apagar(int pin)
 {
-	digitalWrite(pin, HIGH);
+	digitalWrite(pin, 1);
 }
